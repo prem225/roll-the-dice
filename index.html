@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the dice</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img\icon\android-chrome-512x512.png">
+</head>
+
+<body>
+    <h1>Roll the dice 🎲</h1>
+    
+    <div class="values">
+    <h2>You Clicked: <span id="variable">0</span></h2>
+    <h2>Score:<span id="score"> 0</span></h2>
+    </div>
+
+    <div id="images">
+        <img id="random-dice" src="Dice1.png">
+    </div>
+    
+    <div class="buttons">
+    <button id="Button-1" value="1" type="button" onclick="btnClick(this.id)">1</button>
+    <button id="Button-2" value="2" type="button" onclick="btnClick(this.id)">2</button>
+    <button id="Button-3" value="3"  type="button" onclick="btnClick(this.id)">3</button>
+    <button id="Button-4" value="4"  type="button" onclick="btnClick(this.id)">4</button>
+    <button id="Button-5" value="5"  type="button" onclick="btnClick(this.id)">5</button>
+    <button id="Button-6" value="6"  type="button" onclick="btnClick(this.id)">6</button>
+    </div>
+
+    <div class="roll-dice">
+        <button onclick="diceRoll()" id="roll">Roll dice!</button>
+    </div>
+
+    <div>
+        <h2 id="warning"></h2>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

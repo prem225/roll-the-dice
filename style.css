@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
+    width: 50%;
+    height: 10px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.values{
+    display: flex;
+    justify-content: space-between;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 30px 0;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+/*BUTTONS - BUTTON-1*/
+#Button-1{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#Button-1:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*BUTTON-2*/
+#Button-2{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#Button-2:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*BUTTON-3*/
+#Button-3{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#Button-3:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*BUTTON-4*/
+#Button-4{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#Button-4:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*BUTTON-5*/
+#Button-5{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#Button-5:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*BUTTON-6*/
+#Button-6{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#Button-6:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+#roll{
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:25px 0 0 41.2% ;
+}
+#roll:hover{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+#warning{
+    color: #E84545;
+    margin:25px 0 0 42% ;
+}
